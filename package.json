@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "start": "node index.js"
+  },
+  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
